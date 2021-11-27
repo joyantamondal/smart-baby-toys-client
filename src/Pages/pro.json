@@ -1,0 +1,123 @@
+[
+    {
+        "id":"1",
+        "productName": "Chillafish Quadie + Trailie",
+        "productImg": "https://i.ibb.co/Bfmsj3h/Chillafish-Quadie-Trailie.jpg",
+        "description": "",
+        "price":"50",
+        "rating": "5",
+        "stock": "100"
+
+    },
+    {
+        "id":"2",
+        "productName":"Flip Fish",
+        "productImg": "https://i.ibb.co/wQtyHfW/Flip-Fish.jpg",
+        "description":"",
+        "price":"20",
+        "rating": "4.5",
+        "stock": "500"
+
+    },
+    {
+        "id":3,
+        "productName": "Mermaid Magic Doll Coral - 10 inch",
+        "productImg": "https://i.ibb.co/c8JwmYn/Mermaid-Magic-Doll-Coral-10-inch.jpg",
+        "description": "",
+        "price":"35",
+        "rating": "3.5",
+        "stock": "200"
+
+    },
+    {
+        "id":"4",
+        "productName": "MiniSpinny",
+        "productImg": "https://i.ibb.co/CbF5c4d/Mini-Spinny.jpg",
+        "description": "",
+        "price":"40",
+        "rating": "5",
+        "stock": "250"
+
+    },
+    {
+        "id":"5",
+        "productName": "NogginStik",
+        "productImg": "https://i.ibb.co/2sfmYvm/Noggin-Stik.jpg",
+        "description": "",
+        "price":"45",
+        "rating": "4",
+        "stock": "100"
+
+    },
+    {
+        "id":"6",
+        "productName": "OombeeCube",
+        "productImg": "https://i.ibb.co/MZ15W6X/Oombee-Cube.jpg",
+        "description": "",
+        "price": "48",
+        "rating": "5",
+        "stock": "500"
+
+    },
+    {
+        "id":"7",
+        "productName": "pipSquigz Loops",
+        "productImg": "https://i.ibb.co/TkpFq5D/pip-Squigz-Loops.jpg",
+        "description": "",
+        "price":"25",
+        "rating": "3.8",
+        "stock": "151"
+
+    },
+    {
+        "id":"8",
+        "productName": "SmartMax Build XXL - 70 pc",
+        "productImg": "https://i.ibb.co/ZTd90HR/Smart-Max-Build-XXL-70-pc.jpg",
+        "description": "",
+        "price":"60",
+        "rating": "5",
+        "stock": "452"
+
+    },
+    {
+        "id":"9",
+        "productName": "Stacking Ship Set",
+        "productImg": "https://i.ibb.co/fDWD7Gr/Stacking-Ship-Set.jpg",
+        "description": "",
+        "price": "44",
+        "rating": "4.5",
+        "stock": "123"
+
+    },
+    {
+        "id":"10",
+        "productName": "TimberBlocks - 100 Piece Wooden Block Set",
+        "productImg": "https://i.ibb.co/Hq8d6Jd/Timber-Blocks-100-Piece-Wooden-Block-Set.jpg",
+        "description": "",
+        "price":"300",
+        "rating": "5",
+        "stock": "700"
+
+    },
+    {
+        "id":"11",
+        "productName": "Toddler Music Band",
+        "productImg": "https://i.ibb.co/9Yj1543/Toddler-Music-Band.jpg",
+        "description": "",
+        "price":"120",
+        "rating": "4.5",
+        "stock": "150"
+
+    },
+    {
+        "id":"12",
+        "productName": "Walker Wagon",
+        "productImg": "https://i.ibb.co/0KHcTnp/Walker-Wagon.jpg",
+        "description": "",
+        "price":"200",
+        "rating": "3.5",
+        "stock": "150"
+
+    }
+    
+]
