@@ -25,7 +25,7 @@ const Order = () => {
   const handleOrderOpen = () => setOrderOpen(true);
   const handleOrderClose = () => setOrderOpen(false);
   useEffect(() => {
-    fetch(`https://intense-bayou-76806.herokuapp.com/singleProduct/${orderId}`)
+    fetch(`https://fierce-gorge-17477.herokuapp.com/singleProduct/${orderId}`)
       .then((res) => res.json())
       .then((data) => setOrder(data));
   }, [orderId]);

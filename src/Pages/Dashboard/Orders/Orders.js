@@ -18,7 +18,7 @@ const Orders = () => {
     const [orders,setOrders] = useState([]);
     const [control, setControl] = useState(false);
     useEffect(()=>{
-        const url = `https://intense-bayou-76806.herokuapp.com/orders?email=${user.email}`;
+        const url = `https://fierce-gorge-17477.herokuapp.com/orders?email=${user.email}`;
         fetch(url,{
             headers:{
                 'authorization': `Bearer ${token}`
@@ -32,7 +32,7 @@ const Orders = () => {
 const handleOrderDelete=(id)=>{
   const proceed = window.confirm('Are you sure cancel your order?');
  if(proceed){
-  fetch(`https://intense-bayou-76806.herokuapp.com/cancelOrder/${id}`,{
+  fetch(`https://fierce-gorge-17477.herokuapp.com/cancelOrder/${id}`,{
     method:'DELETE',
   })
   .then(res=>res.json())

@@ -16,7 +16,7 @@ const AddReview = () => {
   } = useForm();
 
   const onSubmit = (data) => {
-    fetch("https://intense-bayou-76806.herokuapp.com/addReview", {
+    fetch("https://fierce-gorge-17477.herokuapp.com/addReview", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(data),

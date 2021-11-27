@@ -37,7 +37,7 @@ const OrderModel = ({ openOrder, handleOrderClose, order,setOrderSuccess }) => {
     }
     
     // send to the server
-    fetch('https://intense-bayou-76806.herokuapp.com/orders',{
+    fetch('https://fierce-gorge-17477.herokuapp.com/orders',{
       method:'POST',
       headers:{
         'content-type': 'application/json'

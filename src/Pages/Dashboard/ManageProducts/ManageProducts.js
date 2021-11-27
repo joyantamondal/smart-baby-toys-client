@@ -20,7 +20,7 @@ const ManageProducts = () => {
     // const handleOrderOpen = () => setOrderOpen(true);
     const handleOrderClose = () => setOrderOpen(false);
     useEffect(()=>{
-        fetch('https://intense-bayou-76806.herokuapp.com/allProducts')
+        fetch('https://fierce-gorge-17477.herokuapp.com/allProducts')
         .then(res=>res.json())
         .then(data=>setProducts(data))
     },[control])
@@ -28,7 +28,7 @@ const ManageProducts = () => {
 const handleOrderDelete=(id)=>{
  const proceed = window.confirm('Are You Sure, You Want to Delete Product?');
  if(proceed){
-    fetch(`https://intense-bayou-76806.herokuapp.com/deleteProduct/${id}`,{
+    fetch(`https://fierce-gorge-17477.herokuapp.com/deleteProduct/${id}`,{
         method:'DELETE',
       })
       .then(res=>res.json())

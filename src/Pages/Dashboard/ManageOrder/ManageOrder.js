@@ -15,7 +15,7 @@ const ManageOrder = () => {
     const [allOrders,setAllOrders] = useState([]);
     const [control, setControl] = useState(false);
     useEffect(()=>{
-        fetch("https://intense-bayou-76806.herokuapp.com/allOrders")
+        fetch("https://fierce-gorge-17477.herokuapp.com/allOrders")
         .then(res=>res.json())
         .then(data=>setAllOrders(data));
 
@@ -24,7 +24,7 @@ const ManageOrder = () => {
 const handleOrderDelete=(id)=>{
  const proceed = window.confirm('Are You Sure, You Want to Delete Order?');
  if(proceed){
-    fetch(`https://intense-bayou-76806.herokuapp.com/cancelOrder/${id}`,{
+    fetch(`https://fierce-gorge-17477.herokuapp.com/cancelOrder/${id}`,{
         method:'DELETE',
       })
       .then(res=>res.json())
